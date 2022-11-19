@@ -60,7 +60,7 @@
 	<tr>
 		<td>${u.getSeq()}</td>
 		<td><c:if test="${u.getPhoto() ne ''}"><br />
-		<img src="${pageContext.request.contextPath}/upload/${u.getPhoto()}"></c:if></td>
+		<img src="${pageContext.request.contextPath}/upload/${u.getPhoto()}" alt=""></c:if></td>
 		<td>${u.getFirstName()}</td>
 		<td>${u.getLastName()}</td>
 		<td>${u.getTeam()}</td>

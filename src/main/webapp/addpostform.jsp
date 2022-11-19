@@ -19,6 +19,6 @@
     <tr><td>Team Control:</td><td><input type="number" name="teamControl"/></td></tr>
     <tr><td>Photo:</td><td><input type="file" name="photo"></td></tr>
 <tr><td><a href="posts.jsp">View All Records</a></td><td align="right"><input type="submit" value="Add Post"/></td></tr>
-</table>
+</table></form>
 </body>
 </html>

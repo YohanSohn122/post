@@ -2,6 +2,8 @@ package com.example.bean;
 
 import java.util.Date;
 
+import static java.lang.String.format;
+
 public class BoardVO {
 	private int seq;
 	private String fisrtName;
@@ -59,4 +61,22 @@ public class BoardVO {
 
 	public void setPhoto(String photo) { this.photo = photo; }
 	public String getPhoto() { return photo; }
+
+	public String getGetTeamControl() { return Integer.toString(teamControl); }
+
+	public String getGetAav() { return aav; }
+
+	public String getGetRegdate() { return format(String.valueOf(regdate)); }
+
+	public String getGetAge() { return Integer.toString(age); }
+
+	public String getGetTeam() { return team; }
+
+	public String getGetLastName() { return lastName; }
+
+	public String getGetFirstName() { return fisrtName; }
+
+	public String getGetPhoto() { return photo; }
+
+	public String getGetSeq() { return Integer.toString(seq); }
 }

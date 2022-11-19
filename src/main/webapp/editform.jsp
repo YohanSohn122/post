@@ -27,7 +27,7 @@
 	<tr><td>Aav:</td><td><input type="text" name="aav" value="<%= u.getAav()%>" /></td></tr>
 	<tr><td>Team Control:</td><td><input type="number" name="teamControl" value="<%= u.getTeamControl()%>" /></td></tr>
 	<tr><td>Photo</td><td><input type="file" name="photo" value="${u.getPhoto()}" />
-	<c:if test="${u.getPhoto ne ''}"><br /><img src="${pageContext.request.contextPath}/upload/${u.getPhoto()}" class="photo"></c:if></td></tr>
+	<c:if test="${u.getPhoto ne ''}"><br /><img src="${pageContext.request.contextPath}/upload/${u.getPhoto()}" class="photo" alt=""></c:if></td></tr>
 <tr><td colspan="2"><input type="submit" value="Edit Post"/>
 <input type="button" value="Cancel" onclick="history.back()"/></td></tr>
 </table>
